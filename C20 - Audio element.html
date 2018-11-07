@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <title>Audio</title>
+</head>
+
+<body>
+    Lecture 19
+    <h1>Audio</h1>
+
+    Three standard formats for web browsers are .mp3 .wav and .ogg <br>
+    Suggest .mp3 for most browsers <br><br>
+
+    Vùng lá me bay <br> <!-- IE can't recognize unicode font-->
+    <audio controls = "audiocontrols">
+        <source src = "Vùng lá me bay - Dương Hồng Loan.mp3"/> <!-- HTML support unicode file name -->
+    </audio>
+    <br><br>
+
+    Áo mới Cà Mau   <br>
+    <audio controls loop> <!-- Audio controls Attribute no longer need -->
+            <source src = "Áo mới Cà Mau - Dương Hồng Loan.mp3"/> 
+    </audio>
+
+    <br><br>
+
+    Còn thương rau đắng mọc sau hè (autoplay) <br>
+    <audio controls Autoplay loop draggable="true"> <!--Chrome doesn't work-->
+        <source src = "Còn thương rau đắng mọc sau hè - Dương Hồng Loan.mp3" type = "audio/mpeg"> <br>
+    </audio>
+    <br><br>
+    
+</body>
+</html>

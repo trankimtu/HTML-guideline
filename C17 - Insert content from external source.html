@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        Insert content from external source
+    </title>
+</head>
+
+<body>
+    Lecture 16
+    <h1> Insert content from external source </h1>
+
+    <iframe frameborder = "1" width = "200" height = "250" src = "C3 - Create Table.html" name = "C3iframe" id = "C3iframe" >
+
+    If we have the content outside of source attribute (scr), such as this line, it will not display
+    If it show the content outside of scr, the browser does not support iframe
+    <!-- frameborder attribute: 0 = OFF, 1 = ON -->
+    <!-- width and height attribute: 100% will expand to the width and height of the windows' browser-->
+
+</iframe>    <br />
+
+
+<br>
+<br>
+<iframe frameborder = "0" width = "50%" height = "500" src = "C1 - HTML Structure.html" name = "displayIframe" id = "displayIframe" ></iframe>
+<!-- Won't see border -->
+<br>
+<a href = "C1 - HTML Structure.html" target = "displayIframe" > Load C1 in iframe without refresh webpage </a> <br>
+<a href = "C2 - Unorder and Order list.html" target = "displayIframe" > Load C2 in iframe without refresh webpage </a>  <br>
+<a href = "C13 - Date and number box.html" target = "displayIframe" > Load C1 in iframe without refresh webpage </a>    <br>
+<a href = "C14 - Fieldbox and Legend elements.html" target = "displayIframe" > Load C14 in iframe without refresh webpage </a>  <br>
+
+<!-- 
+    if the files not in the same folder
+    <a href = "put the path of the file here" target = ...
+-->
+
+</body>
+
+</html>
