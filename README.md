@@ -18,6 +18,9 @@ Opening tag + content + Closing tag
 * ```</body>```: closing body tag
 
 ## Empty Element
+Element
+__ Opening Tag __
+__ doesn't need closing tag __
 ```
 <br>
 ```
