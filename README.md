@@ -19,8 +19,8 @@ Opening tag + content + Closing tag
 
 ## Empty Element
 Element <br>
-&nbsp;&nbsp;&nbsp; ** Opening Tag ** <br>
-&nbsp;&nbsp;&nbsp; **doesn't need closing tag**
+&nbsp;&nbsp;&nbsp; **Have Opening Tag** <br>
+&nbsp;&nbsp;&nbsp; **Doesn't need closing tag**
 ```
 <br>
 ```
