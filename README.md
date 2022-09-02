@@ -24,3 +24,10 @@ Element <br>
 ```
 <br>
 ```
+
+## role = button, act like hyperlink
+```
+<div class="social-icon" alt="" role="button" onclick="window.location.href='https:\/\/www.twitter.com\/;'">
+  <i class="bi bi-twitter"></i>
+</div>
+```
